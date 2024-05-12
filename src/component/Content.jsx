@@ -114,7 +114,7 @@ const Content = () => {
                     <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line1 left mb-14">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-lime-300 w-[89%] text-[23px] font-semibold px-2 rounded-md'>Search engine Optimixzation</h2>
-                            <Link to="https://searchengineland.com/guide/what-is-seo" className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
+                            <Link to="https://searchengineland.com/guide/what-is-seo" target="_blank" rel="noopener noreferrer" className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
@@ -123,7 +123,7 @@ const Content = () => {
                     <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex   elem line1 right mb-14 bg-black">
                         <div className=" elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-white w-[89%] text-[23px] font-semibold px-2 rounded-md'>Social marketing media</h2>
-                            <h4 className='text-[20px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></h4>
+                            <Link to="https://www.investopedia.com/terms/s/social-media-marketing-smm.asp" target="_blank" rel="noopener noreferrer" className='text-[20px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className=" elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
@@ -132,7 +132,7 @@ const Content = () => {
                     <div className=" elem line2 left flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  mb-14 bg-black">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className='bg-white w-[89%] text-[23px] font-semibold px-2 rounded-md'>E-mail marketing</h2>
-                            <h4 className='text-[20px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></h4>
+                            <Link to="https://www.brevo.com/blog/what-is-email-marketing/" target="_blank" rel="noopener noreferrer" className='text-[20px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
@@ -142,7 +142,7 @@ const Content = () => {
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-lime-300 w-[89%] text-[23px] font-semibold px-2 rounded-md'>Youtube
                                 Management</h2>
-                            <h4 className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></h4>
+                            <Link to="https://www.hubspot.com/youtube-marketing" target="_blank" rel="noopener noreferrer" className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
@@ -152,7 +152,7 @@ const Content = () => {
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-lime-300 w-[89%] text-[23px] font-semibold px-2 rounded-md'>Content
                                 Creation</h2>
-                            <h4 className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></h4>
+                            <Link to="https://www.semrush.com/blog/content-creation/" target="_blank" rel="noopener noreferrer" className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
@@ -162,7 +162,7 @@ const Content = () => {
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-white w-[89%] text-[23px] font-semibold px-2 rounded-md'>Web
                                 development</h2>
-                            <h4 className='text-[20px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></h4>
+                            <Link to="https://www.geeksforgeeks.org/web-development/" target="_blank" rel="noopener noreferrer" className='text-[20px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
@@ -172,7 +172,7 @@ const Content = () => {
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-white w-[89%] text-[23px] font-semibold px-2 rounded-md'>Graphics &
                                 Video Editing</h2>
-                            <h4 className='text-[20px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></h4>
+                            <Link to="https://www.udemy.com/course/complete-graphics-design-and-video-editing-masterclass/" target="_blank" rel="noopener noreferrer" className='text-[20px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
@@ -181,7 +181,7 @@ const Content = () => {
                     <div className="elem line4 right flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  mb-14">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-lime-300 w-[89%] text-[23px] font-semibold px-2 rounded-md'>Reputation Management</h2>
-                            <h4 className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></h4>
+                            <Link to="https://blog.hubspot.com/marketing/reputation-management" target="_blank" rel="noopener noreferrer" className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
