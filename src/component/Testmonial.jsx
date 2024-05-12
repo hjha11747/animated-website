@@ -2,6 +2,12 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import employee1 from '../../public/images/emplopyee1.jpg'
+import employee2 from '../../public/images/employee2.webp'
+import employee3 from '../../public/images/employee3.webp'
+import employee4 from '../../public/images/employee4.jpg'
+import employee5 from '../../public/images/employee5.jpg'
+
 
 const Testimonial = () => {
     const settings = {
@@ -52,31 +58,31 @@ const Testimonial = () => {
 const data = [
     {
         name: 'John Morgan',
-        img: '../src/assets/emplopyee1.jpg',
+        img: employee1,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptas quos dolorem magni tempore, numquam aspernatur est minus, amet ipsum eaque accusamus beatae dignissimos harum quas magnam unde consequuntur',
         position: 'CEO/CO-FOUNDER'
     },
     {
         name: 'Harry Smith',
-        img: '../src/assets/employee2.webp',
+        img: employee2,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptas quos dolorem magni tempore, numquam aspernatur est minus, amet ipsum eaque accusamus beatae dignissimos harum quas magnam unde consequuntur',
         position: 'CEO/CO-FOUNDER'
     },
     {
         name: 'Salina Jasmine',
-        img: '../src/assets/employee3.webp',
+        img: employee3,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptas quos dolorem magni tempore, numquam aspernatur est minus, amet ipsum eaque accusamus beatae dignissimos harum quas magnam unde consequuntur',
         position: 'CEO/CO-FOUNDER'
     },
     {
         name: 'Pat Steve',
-        img: '../src/assets/employee4.jpg',
+        img: employee4,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptas quos dolorem magni tempore, numquam aspernatur est minus, amet ipsum eaque accusamus beatae dignissimos harum quas magnam unde consequuntur',
         position: 'CEO/CO-FOUNDER'
     },
     {
         name: 'Nikita Mark',
-        img: '../src/assets/employee5.jpg',
+        img: employee5,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptas quos dolorem magni tempore, numquam aspernatur est minus, amet ipsum eaque accusamus beatae dignissimos harum quas magnam unde consequuntur',
         position: 'CEO/CO-FOUNDER'
     },
