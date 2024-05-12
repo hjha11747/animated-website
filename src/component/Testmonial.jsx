@@ -9,7 +9,9 @@ const Testimonial = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true, 
+        autoplaySpeed: 1500,
     };
 
     return (
@@ -21,14 +23,14 @@ const Testimonial = () => {
                     atque harum.</p>
             </div>
 
-        <div className='w-[90%] mx-auto bg-slate-700 rounded-2xl p-2 pb-10 mt-10'>
+        <div className='w-[90%] mx-auto rounded-2xl p-2 pb-10 mt-10'>
             <div className='w-[80%] m-auto'>
                 <div className='mt-20'>
                     <Slider {...settings}>
                         {data.map((d, index) => (
                             <div key={index} className='testimonial-item '>
                                 <div className=' mx-2 bg-white h-[500px] text-black rounded-xl'>
-                                    <div className='h-56 rounded-t-xl bg-sky-600 flex justify-center items-center'>
+                                    <div className='h-56 rounded-t-xl bg-stone-600 flex justify-center items-center'>
                                         <img src={d.img} alt={d.name} className='h-44 w-44 rounded-full' />
                                     </div>
                                     <div className='flex flex-col justify-center items-center gap-4 p-4'>
