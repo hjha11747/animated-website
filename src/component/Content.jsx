@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react';
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -113,7 +114,7 @@ const Content = () => {
                     <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line1 left mb-14">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-lime-300 w-[89%] text-[23px] font-semibold px-2 rounded-md'>Search engine Optimixzation</h2>
-                            <h4 className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></h4>
+                            <Link to="https://searchengineland.com/guide/what-is-seo" className='text-[20px]'>Learn More<i className="ri-arrow-right-up-line text-[25px] pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
