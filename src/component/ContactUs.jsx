@@ -35,15 +35,16 @@ const ContactUs = () => {
         })
 
         tl5.from('.contact-us img', {
-            rotateZ:180,
-            duration: 1,
+            rotateZ: 360,
+            delay:1,
+            duration: 4,
             opacity: 0,
-            x: 100
+            y: 400
         })
 
         ScrollTrigger.create({
             trigger: '.contact-us',
-            start: 'top 50%',
+            start: 'top 70%',
             end: 'top 30%',
             scrub: 2,
             markers: false,
@@ -53,11 +54,10 @@ const ContactUs = () => {
 
     return (
         <>
-            <div className='services flex items-center justify-start px-[70px] py-6 pt-20'>
-                <h3 className=' bg-lime-400 py-2 px-4 rounded-md text-xl  '>Contact Us</h3>
-                <p className=' w-[50%] text-[11px] px-2 ml-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nulla provident magni at laborum odio
-                    doloribus. Dolorum laudantium, consequuntur dignissimos cumque provident deserunt quo quas a aut ab
-                    atque harum.</p>
+            <div className='services flex items-center justify-start px-[70px] py-6 pt-20' id='contactus'>
+                <h3 className=' bg-lime-400 py-2 px-4 rounded-md text-xl font-semibold  '>Contact Us</h3>
+                <p className=' w-[50%] text-[17px] px-2 ml-2'>Connect with Us: Let's Discuss
+                    Your Digital Marketing Needs</p>
             </div>
 
             <div className=" bg-slate-100 w-[90%] h-[550px] m-auto rounded-3xl flex justify-between items-center px-20 mb-20 contact-us ">

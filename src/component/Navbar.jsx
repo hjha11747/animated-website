@@ -1,6 +1,6 @@
 import { useGSAP } from '@gsap/react'
 import React from 'react'
-import { NavLink  } from 'react-router-dom'
+import { Link  } from 'react-router-dom'
 import gsap from 'gsap'
 
 const Navbar = () => {
@@ -31,9 +31,10 @@ const Navbar = () => {
       duration:0.2
     })
     .from(".center-part2 img",{
-      x:400,
+      y:400,
       opacity:0,
-      duration:0.3,
+      duration:1,
+      rotateZ:360,
     })
 
     .from(".section1bottom",{
@@ -44,29 +45,63 @@ const Navbar = () => {
   })
 
   });
+
+  const scrollToBanner = () => {
+    window.scrollTo({
+      top: document.getElementById('Blog').offsetTop - (window.innerHeight * 0.2),
+      behavior: 'smooth'
+    });
+  };
+
+  const scrollToTestimonial = () => {
+    window.scrollTo({
+      top: document.getElementById('testimonial').offsetTop,
+      behavior: 'smooth'
+    });
+  };
+
+  const scrollToContactUs = () => {
+    window.scrollTo({
+      top: document.getElementById('contactus').offsetTop,
+      behavior: 'smooth'
+    });
+  };
+
+  const scrollToServices = () => {
+    window.scrollTo({
+      top: document.getElementById('services').offsetTop - (window.innerHeight * 0.05),
+      behavior: 'smooth'
+    });
+  };
+
+  const scrollToProcess = () => {
+    window.scrollTo({
+      top: document.getElementById('process').offsetTop,
+      behavior: 'smooth'
+    });
+  };
   
 
   return (
     <>
-    <nav className=' bg-gray-200 flex justify-between items-center py-2 px-12 sticky top-0 z-[1]'>
+    <nav className=' bg-gray-200 flex justify-between items-center py-2 px-12 sticky top-0 z-[1] overflow-x-hidden'>
         <h1 className=' text-[40px] font-bold '><i className= " px-1" class="ri-shining-2-fill"></i>WizardZ</h1>
         <div className=' flex justify-center items-center gap-11 font-semibold '>
-                <NavLink>About Us</NavLink>
-                <NavLink>Services</NavLink>
-                <NavLink>Blog</NavLink>
-                <NavLink>Use Cases</NavLink>
-                <NavLink>Pricing</NavLink>
-                <button className='py-[15px] px-6 rounded-md bg-transparent font-semibold border border-solid '>Request a Quote</button>
+                <Link to="/">Home</Link>
+                <Link onClick={scrollToServices}>Services</Link>
+                <Link onClick={scrollToBanner}>Blog</Link>
+                <Link onClick={scrollToProcess}>Process</Link>
+                <Link onClick={scrollToTestimonial}>Testimonial</Link>
+                <Link onClick={scrollToContactUs} >Contact Us</Link>
+                <Link to="https://www.instagram.com/j_harsh_20/" className='py-[12px] px-3 rounded-md bg-green-500 font-semibold' >Request Service</Link>
         </div>
     </nav>
 
-    <div className='  py-9 px-16  h-[72%] w-full flex'>
-            <div className=' center-part1 h-full w-[45%]'>
-                <h1 className=' text-[65px] font-medium leading-[1.3] '>Navigating the digital landspace for success</h1>
-                <p className=' text-[17px] py-6 w-[90%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rem alias, officiis, consequuntur
-                    sapiente praesentium et aspernatur at, ipsum quos cumque? Ut tenetur eum cupiditate quis quo veniam
-                    blanditiis magnam.</p>
-                <button className=' bg-green-500 text-white font-semibold rounded-md px-5 py-2 border-none text-[15px]'>Book A Consultation</button>
+    <div className='  py-9 px-16  h-[72%] w-full flex overflow-x-hidden'>
+            <div className=' mt-16 center-part1 h-full w-[45%]'>
+                <h1 className=' text-[54px] font-medium leading-[1.3] '> <i class="ri-hashtag font-bold"></i>Unleash the Power learning the of Social Media with Us</h1>
+                <p className=' text-[17px] py-6 w-[90%]'>Our digital marketing agency helps businesses and influencer grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                <button className=' bg-black text-white font-semibold rounded-md px-5 py-2 border- text-[20px]' onClick={scrollToServices}> Dive in now</button>
             </div>
             <div className='center-part2 w-[55%] '>
                 <img src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
