@@ -54,7 +54,7 @@ const Banner = () => {
 
   return (
     <div className=' banner-details bg-gray-200 w-[90%] h-[300px] m-auto px-20 rounded-3xl flex justify-between  max-lg:px-8  max-md:p-6  max-sm:flex-col  max-sm:h-[520px]  '  id='Blog'>
-      <div className=' flex items-start flex-col justify-between h-[250px] w-[50%] max-sm:w-full max-sm:h-[150px] '>
+      <div className=' flex items-start flex-col justify-between h-[250px] w-[50%] max-sm:w-full max-sm:h-[150px] pt-6 '>
         <h1 className=' text-[30px] font-semibold  max-lg:text-2xl max-md:text-xl'>Lets make things happen</h1>
         <p className='text-[17px]  max-lg:text-[14px]  max-md:text-[12px]  '>Our agency specializes in providing a wide range of services including social media management, digital marketing.Contact us today to learn more about how our digital marketing services can help your business grow and succeed online. </p>
         <Link to="https://www.instagram.com/j_harsh_20/" className=' bg-black text-white text-[20px] p-3 px-4 rounded-md mt-6  max-lg:text-[15px]  max-md:text-[13px] link'>Get your free proposal</Link>

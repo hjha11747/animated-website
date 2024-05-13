@@ -127,7 +127,7 @@ const Content = () => {
                             <img className='max-lg:h-[190px] max-small:h-[150px] max-lg:px-2  max-medium:ml-8  max-md:ml-3 ' src="https://zagfirst.com/wp-content/uploads/2018/06/search-engine-optimization.jpg" alt="" />
                         </div>
                     </div>
-                    <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line1 right mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 bg-black">
+                    <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line1 right mb-14  max-xl:px-8 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 bg-black">
                         <div className=" elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-white w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px] '>Social marketing media</h2>
                             <Link to="https://www.investopedia.com/terms/s/social-media-marketing-smm.asp" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px]  text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
@@ -136,26 +136,26 @@ const Content = () => {
                             <img className='max-lg:h-[190px] max-small:h-[120px] max-lg:px-2  max-medium:ml-8  max-md:ml-3  rounded-2xl' src="https://www.wordstream.com/wp-content/uploads/2022/02/social-media-marketing-fundamentals-wordstream.png" alt="" />
                         </div>
                     </div>
-                    <div className="  flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line2 left mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 bg-black">
+                    <div className="  flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line2 left mb-14  max-xl:px-8 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 bg-black  max-medium:bg-white">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
-                            <h2 className=' bg-white w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>E-mail marketing</h2>
-                            <Link to="https://www.brevo.com/blog/what-is-email-marketing/" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px]  text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
+                            <h2 className=' bg-white max-medium:bg-lime-300 w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>E-mail marketing</h2>
+                            <Link to="https://www.brevo.com/blog/what-is-email-marketing/" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px]  text-white max-medium:text-black'>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img className='max-lg:h-[190px] max-small:h-[120px] max-lg:px-2  max-medium:ml-8  max-md:ml-3  rounded-2xl' src="https://thebrandhopper.com/wp-content/uploads/2022/12/email-marketing-strategy.jpg" alt="" />
                         </div>
                     </div>
-                    <div className="  flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line2 right mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2">
+                    <div className="  flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line2 right mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 max-medium:bg-black">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
-                            <h2 className=' bg-lime-300 w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Youtube
+                            <h2 className=' bg-lime-300 max-medium:bg-white w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Youtube
                                 Management</h2>
-                            <Link to="https://www.hubspot.com/youtube-marketing" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px] '>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
+                            <Link to="https://www.hubspot.com/youtube-marketing" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px] max-medium:text-white '>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img className='max-lg:h-[190px] max-small:h-[120px] max-lg:px-2  max-medium:ml-8  max-md:ml-3  rounded-2xl' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT4Bfvq6_6cF99FOjH0XJAzo_hT7P_RsXGd1weB_6WrA&s" alt="" />
                         </div>
                     </div>
-                    <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line3 left mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2">
+                    <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line3 left mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 ">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
                             <h2 className=' bg-lime-300  w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Content
                                 Creation</h2>
@@ -175,20 +175,20 @@ const Content = () => {
                             <img className='max-lg:h-[190px] max-small:h-[120px] max-lg:px-2  max-medium:ml-8  max-md:ml-3  rounded-2xl' src="https://p7.hiclipart.com/preview/578/658/575/web-development-web-developer-web-design-software-developer-web-design.jpg" alt="" />
                         </div>
                     </div>
-                    <div className="  flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line4 left mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 bg-black">
+                    <div className="  flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line4 left mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 bg-black max-medium:bg-white">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
-                            <h2 className=' bg-white  w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Graphics &
+                            <h2 className=' bg-white max-medium:bg-lime-300  w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Graphics &
                                 Video Editing</h2>
-                            <Link to="https://www.udemy.com/course/complete-graphics-design-and-video-editing-masterclass/" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px] text-white'>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
+                            <Link to="https://www.udemy.com/course/complete-graphics-design-and-video-editing-masterclass/" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px] text-white max-medium:text-black'>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img className='max-lg:h-[190px] max-small:h-[120px] max-lg:px-2  max-medium:ml-8  max-md:ml-3  rounded-2xl' src="https://png.pngtree.com/png-vector/20220524/ourmid/pngtree-video-editor-icon-design-png-image_4709312.png" alt="" />
                         </div>
                     </div>
-                    <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line4 right mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2">
+                    <div className=" flex-shrink-0 h-[300px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line4 right mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 max-medium:bg-black">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
-                            <h2 className=' bg-lime-300  w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Reputation Management</h2>
-                            <Link to="https://blog.hubspot.com/marketing/reputation-management" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px] '>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
+                            <h2 className=' bg-lime-300 max-medium:bg-white  w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Reputation Management</h2>
+                            <Link to="https://blog.hubspot.com/marketing/reputation-management" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px] max-medium:text-white '>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
                         </div>
                         <div className="elem-part2 h-full w-[50%]">
                             <img className='max-lg:h-[190px] max-small:h-[120px] max-lg:px-2  max-medium:ml-8  max-md:ml-3  rounded-2xl' src="https://st4.depositphotos.com/18657574/22402/v/450/depositphotos_224020612-stock-illustration-paper-pencil-concept-vector-linear.jpg" alt="" />

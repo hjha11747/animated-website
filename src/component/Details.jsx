@@ -64,22 +64,22 @@ const Details = () => {
 
         tl4.from(".process h1", {
             opacity: 0,
-            duration: 0.3,
-            delay: 0.3,
+            duration: 1,
+            delay: 1,
             y: 30
         });
         tl4.from(".process button", {
             opacity: 0,
             rotate: 180,
             duration: 1,
-            delay: 0.3,
+            delay: 1,
             x: 200
         });
 
         ScrollTrigger.create({
             trigger: '.process',
-            start: 'top 90%',
-            end: 'top 40%',
+            start: 'top 100%',
+            end: 'top 90%',
             scrub: 2,
             markers: false,
             animation: tl4,
@@ -88,10 +88,9 @@ const Details = () => {
 
     return (
         <>
-            <div className='services flex items-center justify-start px-[70px] py-6 pt-20 mb-3' id='process'>
-                <h3 className='bg-lime-400 py-2 px-4 rounded-md text-xl font-semibold  max-sm:text-[13px] max-sm:p-1'>Our Working Process</h3>
-                <p className='w-[50%] text-[17px] px-2 ml-2  max-sm:text-[10px]'>Step-by-Step Guide to Achieving
-                    Your Business Goals include:.</p>
+            <div className='services flex justify-start px-[70px] py-6 pt-20 mb-3 max-sm:flex-col max-sm:px-[30px]' id='process'>
+                <h3 className='bg-lime-400 py-2 px-4 rounded-md text-xl font-semibold  max-sm:text-[13px] max-sm:w-[20%] max-small:w-[30%] max-sm:px-1 max-xs:w-[40%] text-center'>Our Process</h3>
+                <p className='w-[50%] text-[17px]  ml-2 max-md:text-[14px]  max-sm:text-[12px] max-sm:w-[100%] max-sm:mt-3'>Step-by-Step Guide to Achieving Your Business Goals include:.</p>
             </div>
             <div className='w-[90%]  m-auto bg-slate-200 px-[190px] max-md:px-[20px] py-10 rounded-xl '>
                 <div>

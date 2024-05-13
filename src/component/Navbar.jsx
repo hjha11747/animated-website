@@ -1,11 +1,19 @@
 import { useGSAP } from '@gsap/react'
-import React from 'react'
+import React ,{useState} from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import gsap from 'gsap'
+import { IoMdClose } from "react-icons/io";
+import { TiThMenu } from "react-icons/ti";
 
 const Navbar = () => {
 
-  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+
   useGSAP(() => {
     let tl = gsap.timeline();
     tl.from("nav", {
@@ -99,9 +107,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=' bg-gray-200 flex justify-between items-center py-2 px-12 sticky top-0 z-[1] overflow-x-hidden'>
-        <NavLink onClick={scrollToTop} className=' text-[40px] font-bold ' id='top' activeClassName='active'><i class="ri-menu-search-line"></i>ElevateEdge</NavLink>
-        <div className=' flex justify-center items-center gap-11 font-semibold '>
+       <nav className='bg-gray-200 flex justify-between items-center py-2 px-12 sticky  z-10 top-0 max-lg:px-8 max-small:px-6'>
+        <NavLink onClick={scrollToTop} className='text-[40px] font-bold max-lg:text-[30px] max-sm:text-[25px] max-small:text-[22px] max-xs:text-[18px] ' id='top' activeClassName='active'><i class="ri-menu-search-line"></i>ElevateEdge</NavLink>
+        <div className='flex justify-center items-center gap-11 font-semibold max-xl:gap-6 max-medium:gap-4 max-tab:hidden'>
           <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToTop}>Home</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToAboutUs}>About Us</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToServices}>Services</NavLink>
@@ -110,7 +118,26 @@ const Navbar = () => {
           <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToTestimonial}>Testimonial</NavLink>
           <Link onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-green-400 font-semibold'>Request Service</Link>
         </div>
+
+        <button className='tab:hidden' onClick={toggleMenu}>{ isMenuOpen ?<IoMdClose className='inline-block'/>:<TiThMenu /> }</button>
+
       </nav>
+
+      {isMenuOpen && (
+        <div className='flex flex-col p-3 bg-gray-200 font-medium tab:hidden sticky'>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTop}>Home</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToAboutUs}>About Us</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToServices}>Services</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToBanner}>Blog</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToProcess}>Process</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTestimonial}>Testimonial</NavLink>
+          <Link onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-green-400 font-semibold w-[32%] max-small:w-[36%] max-xs:w-[58%] text-center'>Request Service</Link>
+        </div>
+      )}
+
+
+
+
 
       <div className='  py-9 px-16  h-[72%] w-full flex overflow-x-hidden max-lg:px-10   max-sm:px-4    max-small:flex-col'>
         <div className=' mt-16 center-part1 h-full w-[45%]  max-xl:w-[50%] max-xl:mt-10   max-md:mt-6  max-sm:mt-0   max-small:w-full'>

@@ -11,8 +11,8 @@ import AboutUs from '../component/AboutUs'
 const Homepage = () => {
   return (
     <>
-    <div className=' overflow-x-hidden'>
         <Navbar />
+    <div className=' overflow-x-hidden'>
         <AboutUs />
         <Content />
         <Banner />

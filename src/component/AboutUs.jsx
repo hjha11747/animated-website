@@ -13,13 +13,12 @@ const AboutUs = () => {
         tl6.from(".aboutus", {
             y: 30,
             delay: 1,
-            duration: 1,
+            duration: 0.5,
             opacity: 0
         })
 
         tl6.from(".paragraph", {
-            x: -300,
-            delay: 1,
+            x: -200,
             duration: 1,
             opacity: 0
         })
@@ -27,7 +26,7 @@ const AboutUs = () => {
         ScrollTrigger.create({
             trigger: '.aboutus',
             start: 'top 100%',
-            end: 'top 60%',
+            end: 'top 80%',
             scrub: 2,
             markers: false,
             animation: tl6,
@@ -38,7 +37,7 @@ const AboutUs = () => {
     return (
         <>
             <div className='aboutus flex justify-start px-[70px]  max-sm:flex-col max-sm:px-[30px]  pt-20 ' id='aboutus'>
-                <h3 className=' bg-lime-400 text-center py-2 px-4 rounded-md text-xl font-semibold  max-md:w-[30%]  max-small:text-[17px]  max-small:p-1  max-small:w-[33%]'>About us</h3>
+                <h3 className=' bg-lime-400 text-center py-2 px-4 rounded-md text-xl font-semibold  max-md:w-[30%]  max-small:text-[17px]  max-small:p-1  max-small:w-[33%] mb-4'>About us</h3>
                 <p className=' w-[50%] text-[17px] px-2 ml-2   max-lg:w-[70%]  max-lg:text-[15px]   max-md:w-[90%] max-md:text-[13px]  max-sm:px-0 max-sm:pt-3  '>We're the driving force behind your online success, crafting
                     strategies that captivate audiences and elevate brands.</p>
             </div>

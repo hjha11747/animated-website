@@ -9,7 +9,8 @@ export default {
       screens: {
       "xs": '400px',
       "small":"503px",
-      "medium":"900px",
+      "medium":"906px",
+      "tab":"857px"
     },},
   },
   plugins: [],
