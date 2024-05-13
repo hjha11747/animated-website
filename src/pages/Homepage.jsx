@@ -11,6 +11,7 @@ import AboutUs from '../component/AboutUs'
 const Homepage = () => {
   return (
     <>
+    <div className=' overflow-x-hidden'>
         <Navbar />
         <AboutUs />
         <Content />
@@ -19,6 +20,7 @@ const Homepage = () => {
         <Testmonial />
         <ContactUs /> 
         <Footer />
+      </div>
 
     </>
   )

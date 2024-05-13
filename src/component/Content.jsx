@@ -111,7 +111,7 @@ const Content = () => {
 
     return (
         <>
-            <div className='services flex justify-start px-[70px]  max-sm:flex-col max-sm:px-[30px]  pt-20' id='services'>
+            <div className='services flex justify-start px-[70px]  max-sm:flex-col max-sm:px-[30px]  pt-20 ' id='services'>
                 <h3 className=' bg-lime-400 text-center py-2 px-4 rounded-md text-xl font-semibold  max-md:w-[40%]  max-xs:w-[50%]  max-small:text-[17px]  max-small:p-1  max-small:w-[33%] '>Our Services</h3>
                 <p className='  w-[50%] text-[17px] px-2 ml-2   max-lg:w-[70%]  max-lg:text-[15px]   max-md:w-[90%] max-md:text-[13px]  max-sm:px-0 max-sm:pt-3 '>At our digital marketing agency, we offer a range of services to help businesses grow.. These services include:</p>
             </div>
