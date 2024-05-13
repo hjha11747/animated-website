@@ -28,8 +28,8 @@ const Footer = () => {
     })
 
     return (
-        <div className="w-[90%] m-auto bg-black px-14 py-8 rounded-xl footer mb-10 max-small:p-4  max-sm:p-5">
-            <div className="top flex justify-between ">
+        <div className="w-[90%] m-auto bg-black px-14 py-8 rounded-xl footer mb-10 max-small:p-4  max-sm:p-5 max-small:mb-18">
+            <div className="top flex justify-between  ">
                 <h1 className='text-white text-5xl max-md:text-3xl max-small:text-xl'><i class="ri-menu-search-line"></i> ElevateEdge </h1>
                 <div className="flex gap-4 ">
                     <img className='max-small:h-[20px] max-xs:h-[15px]' src="https://assets-global.website-files.com/6491c6f67cd22366fdc73f83/6492aee3747033215208522b_Social%20icon-1.svg" loading="lazy" alt="" />
