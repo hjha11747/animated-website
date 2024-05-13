@@ -17,15 +17,15 @@ const Step = ({ title, details, show, onClick }) => {
         <>
 
 
-            <div className={`bg-slate-100 p-7 rounded-2xl mb-6 shadow-lg shadow-black ${isExpanded ? 'bg-slate-300' : 'bg-slate-100'}`}>
-                <div className='flex justify-between text-2xl font-semibold process'>
+            <div className={`bg-slate-100 p-7 rounded-2xl mb-6 shadow-lg shadow-black  max-sm:p-3 max-md:w-full ${isExpanded ? 'bg-slate-300' : 'bg-slate-100'}`}>
+                <div className='flex justify-between text-2xl font-semibold process    max-[900px]:text-xl  max-sm:text-sm sm:'>
                     <h1>{title}</h1>
                     <button onClick={toggleExpanded}>
-                        {isExpanded ? <i className="ri-subtract-line text-5xl font-thin"></i> : <i className="ri-add-circle-line text-5xl font-thin"></i>}
+                        {isExpanded ? <i className="ri-subtract-line text-5xl font-thin  max-[900px]:text-3xl"></i> : <i className="ri-add-circle-line text-5xl font-thin   max-[900px]:text-3xl"></i>}
                     </button>
                 </div>
                 {show && isExpanded ? (
-                    <p className='text-lg font-normal'>
+                    <p className='text-lg font-normal  max-[900px]:text-base max-sm:text-sm'>
                         <hr className='border-black h-1 my-4' />
                         {details}
                     </p>
@@ -89,11 +89,11 @@ const Details = () => {
     return (
         <>
             <div className='services flex items-center justify-start px-[70px] py-6 pt-20 mb-3' id='process'>
-                <h3 className='bg-lime-400 py-2 px-4 rounded-md text-xl font-semibold'>Our Working Process</h3>
-                <p className='w-[50%] text-[17px] px-2 ml-2'>Step-by-Step Guide to Achieving
+                <h3 className='bg-lime-400 py-2 px-4 rounded-md text-xl font-semibold  max-sm:text-[13px] max-sm:p-1'>Our Working Process</h3>
+                <p className='w-[50%] text-[17px] px-2 ml-2  max-sm:text-[10px]'>Step-by-Step Guide to Achieving
                     Your Business Goals include:.</p>
             </div>
-            <div className='w-[90%]  m-auto bg-slate-200 px-[190px] py-10 rounded-xl '>
+            <div className='w-[90%]  m-auto bg-slate-200 px-[190px] max-md:px-[20px] py-10 rounded-xl '>
                 <div>
                     {steps.map((step, index) => (
                         <Step

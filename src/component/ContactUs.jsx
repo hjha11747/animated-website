@@ -54,14 +54,14 @@ const ContactUs = () => {
 
     return (
         <>
-            <div className='services flex items-center justify-start px-[70px] py-6 pt-20' id='contactus'>
-                <h3 className=' bg-lime-400 py-2 px-4 rounded-md text-xl font-semibold  '>Contact Us</h3>
-                <p className=' w-[50%] text-[17px] px-2 ml-2'>Connect with Us: Let's Discuss
+            <div className='services flex justify-start px-[70px]  max-sm:flex-col max-sm:px-[30px]  pt-20'>
+                <h3 className=' bg-lime-400 text-center py-2 px-4 md:mb-3 rounded-md text-xl font-semibold  max-md:w-[40%]  max-xs:w-[50%]  max-small:text-[17px]  max-small:p-1  max-small:w-[33%] '>Contact Us</h3>
+                <p className='w-[50%] text-[17px] px-2 ml-2   max-lg:w-[70%]  max-lg:text-[15px]   max-md:w-[90%] max-md:text-[13px]  max-sm:px-0 max-sm:pt-3 mb-5 '>Connect with Us: Let's Discuss
                     Your Digital Marketing Needs</p>
             </div>
 
-            <div className=" bg-slate-100 w-[90%] h-[550px] m-auto rounded-3xl flex justify-between items-center px-20 mb-20 contact-us ">
-                <div className="w-[40%]">
+            <div className=" bg-slate-100 w-[90%] h-[550px] m-auto rounded-3xl flex justify-between items-center px-20 mb-20 contact-us  max-lg:h-[500px]  max-lg:px-14 ">
+                <div className="w-[40%] max-sm:w-full">
                     <form action="https://api.web3forms.com/submit" method="POST">
                         <div className="flex flex-col w-full gap-1 mb-6 name">
                             <label htmlFor="name" className=" text-xl">Name</label>
@@ -77,10 +77,10 @@ const ContactUs = () => {
                             <textarea maxLength="5000" id="field" name="field" data-name="Field" className="h-10 w-full rounded-lg outline-none"></textarea>
                         </div>
                         <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-                        <button className=" bg-black text-white px-5 py-3 text-xl rounded-lg submit" type='submit' >Submit Here</button>
+                        <button className=" bg-black text-white px-5 py-3 text-xl rounded-lg submit text-center" type='submit' >Submit Here</button>
                     </form>
                 </div>
-                <img height={350} width={350} src="https://assets-global.website-files.com/6491c6f67cd22366fdc73f83/64cba6a986ab7ac79ce5d05f_Illustration%20contact.png" loading="lazy" alt="" className="contact-image" />
+                <img height={350} width={350} className=' max-lg:h-[600px] max-lg:w-[270px] max-md:h-[520px] max-md:w-[240px] max-sm:hidden ' src="https://assets-global.website-files.com/6491c6f67cd22366fdc73f83/64cba6a986ab7ac79ce5d05f_Illustration%20contact.png" loading="lazy" alt=""/>
             </div>
         </>
     )

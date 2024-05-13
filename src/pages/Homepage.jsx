@@ -6,11 +6,13 @@ import ContactUs from '../component/ContactUs'
 import Testmonial from '../component/Testmonial'
 import Details from '../component/Details'
 import Footer from '../component/Footer'
+import AboutUs from '../component/AboutUs'
 
 const Homepage = () => {
   return (
     <>
         <Navbar />
+        <AboutUs />
         <Content />
         <Banner />
         <Details />
