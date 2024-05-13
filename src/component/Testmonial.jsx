@@ -48,7 +48,7 @@ const Testimonial = () => {
                         <Slider {...settings}>
                             {data.map((d, index) => (
                                 <div key={index} className='testimonial-item '>
-                                    <div className=' mx-2 bg-white h-[450px] text-black rounded-xl'>
+                                    <div className=' mx-2 bg-slate-200 h-[450px] text-black rounded-xl'>
                                         <div className=' h-52 rounded-t-xl bg-gray-900 flex justify-center items-center'>
                                             <img src={d.img} alt={d.name} className='h-44 w-44 rounded-full' />
                                         </div>
