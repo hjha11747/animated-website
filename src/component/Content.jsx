@@ -99,8 +99,8 @@ const Content = () => {
 
         ScrollTrigger.create({
             trigger: '.section',
-            start: 'top 60%',
-            end: 'top 0%',
+            start: 'top 100%',
+            end: 'top 40%',
             scrub: 2,
             markers: false,
             animation: tl2,
