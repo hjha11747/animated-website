@@ -49,7 +49,7 @@ const Testimonial = () => {
                             {data.map((d, index) => (
                                 <div key={index} className='testimonial-item '>
                                     <div className=' mx-2 bg-white h-[450px] text-black rounded-xl'>
-                                        <div className=' h-52 rounded-t-xl bg-stone-600 flex justify-center items-center'>
+                                        <div className=' h-52 rounded-t-xl bg-black flex justify-center items-center'>
                                             <img src={d.img} alt={d.name} className='h-44 w-44 rounded-full' />
                                         </div>
                                         <div className='flex flex-col justify-center items-center gap-4 p-4'>
