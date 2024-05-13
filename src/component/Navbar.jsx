@@ -107,7 +107,7 @@ const Navbar = () => {
 
   return (
     <>
-       <nav className='bg-gray-200 flex justify-between items-center py-2 px-12 sticky  z-10 top-0 max-lg:px-8 max-small:px-6'>
+       <nav className='bg-gray-200 flex justify-between items-center py-2 px-12 sticky  z-10 top-0 max-lg:px-8 max-sm:py-5 '>
         <NavLink onClick={scrollToTop} className='text-[40px] font-bold max-lg:text-[30px] max-sm:text-[25px] max-small:text-[22px] max-xs:text-[18px] ' id='top' activeClassName='active'><i class="ri-menu-search-line"></i>ElevateEdge</NavLink>
         <div className='flex justify-center items-center gap-11 font-semibold max-xl:gap-6 max-medium:gap-4 max-tab:hidden'>
           <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToTop}>Home</NavLink>
