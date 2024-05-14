@@ -45,7 +45,7 @@ const ContactUs = () => {
         ScrollTrigger.create({
             trigger: '.contact-us',
             start: 'top 80%',
-            end: 'top 70%',
+            end: 'top 30%',
             scrub: 2,
             markers: false,
             animation: tl5,
