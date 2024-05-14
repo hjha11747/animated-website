@@ -43,7 +43,7 @@ const Footer = () => {
                     <h3><span className="green-header">Contact us:</span></h3>
                     <div className="text-white">Email: info@ElevateEdge.com</div>
                     <div className="text-white">Phone: 489-729-7192</div>
-                    <div className="text-white">Address: 1234 West Bengal, India  </div>
+                    <div className="text-white">Address: 1234 West Bengal, India </div>
                 </div>
             </div>
             <form>

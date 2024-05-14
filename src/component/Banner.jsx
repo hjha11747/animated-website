@@ -7,7 +7,6 @@ import { useGSAP } from '@gsap/react';
 
 
 gsap.registerPlugin(ScrollTrigger);
-
 const Banner = () => {
 
   useGSAP(() => {
@@ -39,8 +38,6 @@ const Banner = () => {
         duration: 10,
         delay: 1,
       })
-
-
 
     ScrollTrigger.create({
       trigger: '.banner-details',

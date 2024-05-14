@@ -136,10 +136,6 @@ const Navbar = () => {
         </div>
       )}
 
-
-
-
-
       <div className='  py-9 px-16  h-[72%] w-full flex overflow-x-hidden max-lg:px-10   max-sm:px-4    max-small:flex-col'>
         <div className=' mt-16 center-part1 h-full w-[45%]  max-xl:w-[50%] max-xl:mt-10   max-md:mt-6  max-sm:mt-0   max-small:w-full'>
           <h1 className=' text-[54px] font-medium leading-[1.3]    max-xl:text-[45px]   max-lg:text-[32px]   max-md:text-[24px] max-xl:leading-[1.1]  max-small:text-[32px]'> <i class="ri-hashtag font-bold"></i>Unleash the Power of learning the of Social Media with Us</h1>

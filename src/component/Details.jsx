@@ -15,8 +15,6 @@ const Step = ({ title, details, show, onClick }) => {
 
     return (
         <>
-
-
             <div className={`bg-slate-100 p-7 rounded-2xl mb-6 shadow-lg shadow-black  max-sm:p-3 max-md:w-full ${isExpanded ? 'bg-slate-300' : 'bg-slate-100'}`}>
                 <div className='flex justify-between text-2xl font-semibold process    max-[900px]:text-xl  max-sm:text-sm sm:'>
                     <h1>{title}</h1>

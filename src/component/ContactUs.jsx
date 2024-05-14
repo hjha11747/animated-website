@@ -32,7 +32,6 @@ const ContactUs = () => {
             opacity: 0,
             x: -100
         })
-
         tl5.from('.contact-us img', {
             rotateZ: 720,
             delay: 1,
