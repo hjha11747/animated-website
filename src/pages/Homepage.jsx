@@ -12,8 +12,8 @@ const Homepage = () => {
   return (
     <>
         <Navbar />
-    <div className=' overflow-x-hidden'>
-        <AboutUs />
+    <div className=' overflow-hidden'>
+        <AboutUs /> 
         <Content />
         <Banner />
         <Details />

@@ -54,7 +54,7 @@ const ContactUs = () => {
 
     return (
         <>
-            <div className='services flex justify-start px-[70px]  max-sm:flex-col max-sm:px-[30px]  pt-20'>
+            <div className='services flex justify-start px-[70px]  max-sm:flex-col max-sm:px-[30px]  pt-20' id='contactus'>
                 <h3 className=' bg-lime-400 text-center py-2 px-4 md:mb-3 rounded-md text-xl font-semibold  max-md:w-[40%]  max-xs:w-[50%]  max-small:text-[17px]  max-small:p-1  max-small:w-[33%] '>Contact Us</h3>
                 <p className='w-[50%] text-[17px] px-2 ml-2   max-lg:w-[70%]  max-lg:text-[15px]   max-md:w-[90%] max-md:text-[13px]  max-sm:px-0 max-sm:pt-3 mb-5 '>Connect with Us: Let's Discuss
                     Your Digital Marketing Needs</p>

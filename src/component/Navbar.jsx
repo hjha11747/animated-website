@@ -1,5 +1,5 @@
 import { useGSAP } from '@gsap/react'
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import gsap from 'gsap'
 import { IoMdClose } from "react-icons/io";
@@ -78,10 +78,11 @@ const Navbar = () => {
 
   const scrollToAboutUs = () => {
     window.scrollTo({
-      top: document.getElementById('aboutus').offsetTop,
+      top:document.getElementById('aboutus').offsetTop,
       behavior: 'smooth'
     });
   };
+  
 
   const scrollToServices = () => {
     window.scrollTo({
@@ -107,31 +108,31 @@ const Navbar = () => {
 
   return (
     <>
-       <nav className='bg-gray-200 flex justify-between items-center py-2 px-12 sticky  z-10 top-0 max-lg:px-8 max-sm:py-5 '>
+      <nav className='bg-gray-200 flex justify-between items-center py-2 px-12 sticky  z-10 top-0 max-lg:px-8 max-sm:py-5 '>
         <NavLink onClick={scrollToTop} className='text-[40px] font-bold max-lg:text-[30px] max-sm:text-[25px] max-small:text-[22px] max-xs:text-[18px] ' id='top' activeClassName='active'><i class="ri-menu-search-line"></i>ElevateEdge</NavLink>
         <div className='flex justify-center items-center gap-11 font-semibold max-xl:gap-6 max-medium:gap-4 max-tab:hidden'>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToTop}>Home</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToAboutUs}>About Us</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToServices}>Services</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToBanner}>Blog</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToProcess}>Process</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px]" onClick={scrollToTestimonial}>Testimonial</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToTop}>Home</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToAboutUs}>About Us</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToServices}>Services</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToBanner}>Blog</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToProcess}>Process</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToTestimonial}>Testimonial</NavLink>
           <Link onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-green-400 font-semibold'>Request Service</Link>
         </div>
 
-        <button className='tab:hidden' onClick={toggleMenu}>{ isMenuOpen ?<IoMdClose className='inline-block'/>:<TiThMenu /> }</button>
+        <button className='tab:hidden' onClick={toggleMenu}>{isMenuOpen ? <IoMdClose className='inline-block' /> : <TiThMenu />}</button>
 
       </nav>
 
       {isMenuOpen && (
         <div className='flex flex-col p-3 bg-gray-200 font-medium tab:hidden sticky'>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTop}>Home</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToAboutUs}>About Us</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToServices}>Services</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToBanner}>Blog</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToProcess}>Process</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:text-[19px] hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTestimonial}>Testimonial</NavLink>
-          <Link onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-green-400 font-semibold w-[32%] max-small:w-[36%] max-xs:w-[58%] text-center'>Request Service</Link>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTop}>Home</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToAboutUs}>About Us</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToServices}>Services</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToBanner}>Blog</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToProcess}>Process</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTestimonial}>Testimonial</NavLink>
+          <NavLink onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-green-400 font-semibold w-[32%] max-small:w-[36%] max-xs:w-[58%] text-center'>Request Service</NavLink>
         </div>
       )}
 
