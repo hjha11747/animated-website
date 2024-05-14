@@ -26,7 +26,7 @@ const AboutUs = () => {
         ScrollTrigger.create({
             trigger: '.aboutus',
             start: 'top 100%',
-            end: 'top 60%',
+            end: 'top 40%',
             scrub: 2,
             markers: false,
             animation: tl6,
