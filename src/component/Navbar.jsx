@@ -117,7 +117,7 @@ const Navbar = () => {
           <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToBanner}>Blog</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToProcess}>Process</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToTestimonial}>Testimonial</NavLink>
-          <Link onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-green-400 font-semibold'>Request Service</Link>
+          <Link onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-lime-400 font-semibold'>Request Service</Link>
         </div>
 
         <button className='tab:hidden' onClick={toggleMenu}>{isMenuOpen ? <IoMdClose className='inline-block' /> : <TiThMenu />}</button>
@@ -132,7 +132,7 @@ const Navbar = () => {
           <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToBanner}>Blog</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToProcess}>Process</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTestimonial}>Testimonial</NavLink>
-          <NavLink onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-green-400 font-semibold w-[32%] max-small:w-[36%] max-xs:w-[58%] text-center'>Request Service</NavLink>
+          <NavLink onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-lime-400 font-semibold w-[32%] max-small:w-[36%] max-xs:w-[58%] text-center'>Request Service</NavLink>
         </div>
       )}
 
