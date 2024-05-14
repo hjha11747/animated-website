@@ -28,7 +28,7 @@ const Footer = () => {
     })
 
     return (
-        <div className="w-[90%] m-auto bg-black px-14 py-8 rounded-xl footer mb-10 max-small:p-4  max-sm:p-5 max-small:mb-20">
+        <div className="w-[90%] m-auto bg-black px-14 py-8 rounded-xl footer mb-10 max-small:p-4  max-sm:p-5 max-small:mb-12">
             <div className="top flex justify-between  ">
                 <h1 className='text-white text-5xl max-md:text-3xl max-small:text-xl'><i class="ri-menu-search-line"></i> ElevateEdge </h1>
                 <div className="flex gap-4 ">

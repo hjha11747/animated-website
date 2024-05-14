@@ -44,8 +44,8 @@ const ContactUs = () => {
 
         ScrollTrigger.create({
             trigger: '.contact-us',
-            start: 'top 70%',
-            end: 'top 30%',
+            start: 'top 80%',
+            end: 'top 70%',
             scrub: 2,
             markers: false,
             animation: tl5,
@@ -81,7 +81,7 @@ const ContactUs = () => {
                     </form>
                 </div>
                 <div>
-                    <img height={350} width={350} className=' max-lg:h-[600px] max-lg:w-[270px] max-md:h-[520px] max-md:w-[240px] max-sm:m-[-10px] max-sm:w-[160%] max-sm:opacity-50 max-sm:rotate-180 ' src="https://assets-global.website-files.com/6491c6f67cd22366fdc73f83/64cba6a986ab7ac79ce5d05f_Illustration%20contact.png" loading="lazy" alt="" />
+                    <img height={350} width={350} className=' max-lg:h-[600px] max-lg:w-[270px] max-md:h-[520px] max-md:w-[240px] max-sm:m-[-0px] max-sm:w-[160%] max-sm:opacity-40 max-sm:rotate-180 max-sm:h-[450px] ' src="https://assets-global.website-files.com/6491c6f67cd22366fdc73f83/64cba6a986ab7ac79ce5d05f_Illustration%20contact.png" loading="lazy" alt="" />
                 </div>
             </div>
         </>
