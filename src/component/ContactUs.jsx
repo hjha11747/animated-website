@@ -35,9 +35,9 @@ const ContactUs = () => {
         })
 
         tl5.from('.contact-us img', {
-            rotateZ: 360,
-            delay:1,
-            duration: 4,
+            rotateZ: 720,
+            delay: 1,
+            duration: 2,
             opacity: 0,
             y: 400
         })
@@ -60,27 +60,29 @@ const ContactUs = () => {
                     Your Digital Marketing Needs</p>
             </div>
 
-            <div className=" bg-slate-100 w-[90%] h-[550px] m-auto rounded-3xl flex justify-between items-center px-20 mb-20 contact-us  max-lg:h-[500px]  max-lg:px-14 ">
+            <div className=" bg-slate-100 w-[90%] h-[550px] m-auto rounded-3xl flex justify-between items-center px-20 mb-20 contact-us  max-lg:h-[500px]  max-lg:px-14  max-sm:px-13 max-sm:h-[450px] max-small:px-8 max-xs:px-4 max-small:h-[400px] ">
                 <div className="w-[40%] max-sm:w-full">
                     <form action="https://api.web3forms.com/submit" method="POST">
                         <div className="flex flex-col w-full gap-1 mb-6 name">
                             <label htmlFor="name" className=" text-xl">Name</label>
                             <input type="hidden" name="access_key" value="fa582549-480b-4865-b440-e1c8fe8b85bc" />
-                            <input className=" h-10 w-full rounded-lg outline-none" maxLength="256" name="name" data-name="Name" placeholder="" type="text" id="name"  />
+                            <input className=" h-10 w-full rounded-lg outline-none max-sm:w-[160%]" maxLength="256" name="name" data-name="Name" placeholder="" type="text" id="name" />
                         </div>
-                        <div className="flex flex-col w-full  gap-1 mb-6 email">
+                        <div className="flex flex-col w-ful;   gap-1 mb-6 email">
                             <label htmlFor="email" className="text-xl">Email Address*</label>
-                            <input className="h-10 w-full rounded-lg outline-none" maxLength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required />
+                            <input className="h-10 w-full rounded-lg outline-none max-sm:w-[160%]" maxLength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required />
                         </div>
                         <div className="flex flex-col w-full  gap-1 mb-6 textarea">
-                            <label htmlFor="field" className="text-xl">Message*</label>
-                            <textarea maxLength="5000" id="field" name="field" data-name="Field" className="h-10 w-full rounded-lg outline-none"></textarea>
+                            <label htmlFor="field" className="text-xl ">Message*</label>
+                            <textarea maxLength="5000" id="field" name="field" data-name="Field" className="h-10 w-full rounded-lg outline-none max-sm:w-[160%]"></textarea>
                         </div>
                         <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-                        <button className=" bg-black text-white px-5 py-3 text-xl rounded-lg submit text-center" type='submit' >Submit Here</button>
+                        <button className=" bg-black text-white px-5 py-3 text-xl rounded-lg submit text-center max-small:text-[16px]" type='submit'  >Submit Here</button>
                     </form>
                 </div>
-                <img height={350} width={350} className=' max-lg:h-[600px] max-lg:w-[270px] max-md:h-[520px] max-md:w-[240px] max-sm:hidden ' src="https://assets-global.website-files.com/6491c6f67cd22366fdc73f83/64cba6a986ab7ac79ce5d05f_Illustration%20contact.png" loading="lazy" alt=""/>
+                <div>
+                    <img height={350} width={350} className=' max-lg:h-[600px] max-lg:w-[270px] max-md:h-[520px] max-md:w-[240px] max-sm:m-[-10px] max-sm:w-[160%] max-sm:opacity-50 max-sm:rotate-180 ' src="https://assets-global.website-files.com/6491c6f67cd22366fdc73f83/64cba6a986ab7ac79ce5d05f_Illustration%20contact.png" loading="lazy" alt="" />
+                </div>
             </div>
         </>
     )
