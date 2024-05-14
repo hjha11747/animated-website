@@ -2,7 +2,6 @@ import { useGSAP } from '@gsap/react';
 import React from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import { Link } from 'react-router-dom'
 
 gsap.registerPlugin(ScrollTrigger);
 const AboutUs = () => {
@@ -16,7 +15,6 @@ const AboutUs = () => {
             duration: 0.5,
             opacity: 0
         })
-
         tl6.from(".paragraph", {
             x: -200,
             duration: 1,
@@ -42,10 +40,9 @@ const AboutUs = () => {
                     strategies that captivate audiences and elevate brands.</p>
             </div>
             <div className=' w-[90%] m-auto bg-gray-900 rounded-2xl'>
-                <p className=' text-[17px] text-white p-12 mt-7 paragraph   max-lg:p-6  max-lg:text-[16px]  max-sm:text-[14px] '>ElevateEdge  is a leading digital media and marketing agency based in ,Banglore India. Our agency was co-founded by John Morgon and Pat Steve, who bring a wealth of experience in social media and content creation.
+                <p className=' text-[17px] text-white p-12 mt-7 paragraph   max-lg:p-6  max-lg:text-[16px]  max-sm:text-[14px]'>ElevateEdge  is a leading digital media and marketing agency based in ,kolkata India. Our agency was co-founded by John Morgon and Pat Steve, who bring a wealth of experience in social media and content creation.
                     <br />
                     <br />
-
                     Our agency specializes in providing a wide range of services including social media management, digital marketing, brand collabs, content strategy, video editing, advertising campaigns, and social media optimization. Our team of experts work with brands to create and implement unique and engaging social media campaigns that help increase brand awareness and drive conversions.
                     <br />
                 </p>

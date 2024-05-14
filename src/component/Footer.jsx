@@ -4,12 +4,10 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 
 gsap.registerPlugin(ScrollTrigger);
-
 const Footer = () => {
 
     useGSAP(() => {
         let tl6 = gsap.timeline();
-
 
         tl6.from('.footer', {
             duration: 1,
@@ -49,8 +47,8 @@ const Footer = () => {
                 </div>
             </div>
             <form>
-                <input  className=" h-14 w-[50%] rounded-xl px-2 my-7 outline-none max-sm:h-10 " maxLength="256" name="email-2" placeholder="Enter your email" type="email" />
-                <input type="submit" className=" text-white text-xl font-medium bg-sky-500 p-4 px-6 ml-2 rounded-xl max-sm:text-base max-sm:p-2" value="Subscribe"  />
+                <input className=" h-14 w-[50%] rounded-xl px-2 my-7 outline-none max-sm:h-10 " maxLength="256" name="email-2" placeholder="Enter your email" type="email" />
+                <input type="submit" className=" text-white text-xl font-medium bg-sky-500 p-4 px-6 ml-2 rounded-xl max-sm:text-base max-sm:p-2" value="Subscribe" />
             </form>
             <div className="my-2"><hr /></div>
             <div className="text-white">© 2024 Flowout. All Rights Reserved.</div>

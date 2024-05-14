@@ -10,93 +10,93 @@ const Content = () => {
 
     useGSAP(() => {
         let tl2 = gsap.timeline();
-        
-        if(window.innerWidth>520){
-        tl2.from('.services', {
-            y: 30,
-            opacity: 0,
-            duration: 1,
-            delay:1,
-        })
-            .from(
-                '.elem.line1.left',
-                {
-                    x: -100,
-                    opacity: 0,
-                    duration: 2,
-                    delay:1,
-                },
-                'together'
-            )
-            .from(
-                '.elem.line1.right',
-                {
-                    x: 100,
-                    opacity: 0,
-                    duration: 1,
-                },
-                'together'
-            )
-            .from(
-                '.elem.line2.left',
-                {
-                    x: -100,
-                    opacity: 0,
-                    duration: 1,
-                    delay:1,
-                },
-                'line2'
-            )
-            .from(
-                '.elem.line2.right',
-                {
-                    x: 100,
-                    opacity: 0,
-                    duration: 1,
-                    delay:1,
-                },
-                'line2'
-            )
-            .from(
-                '.elem.line3.left',
-                {
-                    x: -100,
-                    opacity: 0,
-                    duration: 1,
-                    delay:1,
-                },
-                'line3'
-            )
-            .from(
-                '.elem.line3.right',
-                {
-                    x: 100,
-                    opacity: 0,
-                    duration: 1,
-                    delay:1,
-                },
-                'line3'
-            )
-            .from(
-                '.elem.line4.left',
-                {
-                    x: -100,
-                    opacity: 0,
-                    duration: 1,
-                    delay:1,
-                },
-                'line4'
-            )
-            .from(
-                '.elem.line4.right',
-                {
-                    x: 100,
-                    opacity: 0,
-                    duration: 1,
-                    delay:1,
-                },
-                'line4'
-            );
+
+        if (window.innerWidth > 520) {
+            tl2.from('.services', {
+                y: 30,
+                opacity: 0,
+                duration: 1,
+                delay: 1,
+            })
+                .from(
+                    '.elem.line1.left',
+                    {
+                        x: -100,
+                        opacity: 0,
+                        duration: 2,
+                        delay: 1,
+                    },
+                    'together'
+                )
+                .from(
+                    '.elem.line1.right',
+                    {
+                        x: 100,
+                        opacity: 0,
+                        duration: 1,
+                    },
+                    'together'
+                )
+                .from(
+                    '.elem.line2.left',
+                    {
+                        x: -100,
+                        opacity: 0,
+                        duration: 1,
+                        delay: 1,
+                    },
+                    'line2'
+                )
+                .from(
+                    '.elem.line2.right',
+                    {
+                        x: 100,
+                        opacity: 0,
+                        duration: 1,
+                        delay: 1,
+                    },
+                    'line2'
+                )
+                .from(
+                    '.elem.line3.left',
+                    {
+                        x: -100,
+                        opacity: 0,
+                        duration: 1,
+                        delay: 1,
+                    },
+                    'line3'
+                )
+                .from(
+                    '.elem.line3.right',
+                    {
+                        x: 100,
+                        opacity: 0,
+                        duration: 1,
+                        delay: 1,
+                    },
+                    'line3'
+                )
+                .from(
+                    '.elem.line4.left',
+                    {
+                        x: -100,
+                        opacity: 0,
+                        duration: 1,
+                        delay: 1,
+                    },
+                    'line4'
+                )
+                .from(
+                    '.elem.line4.right',
+                    {
+                        x: 100,
+                        opacity: 0,
+                        duration: 1,
+                        delay: 1,
+                    },
+                    'line4'
+                );
         }
         ScrollTrigger.create({
             trigger: '.section',
