@@ -18,7 +18,7 @@ const Footer = () => {
         ScrollTrigger.create({
             trigger: '.footer',
             start: 'top 100%',
-            end: 'top 80%',
+            end: 'top 60%',
             scrub: 2,
             markers: false,
             animation: tl6,
