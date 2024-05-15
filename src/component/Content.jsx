@@ -98,10 +98,10 @@ const Content = () => {
                     'line4'
                 );
         }
-        
+
         ScrollTrigger.create({
             trigger: '.section',
-            start: 'top 100%',
+            start: 'top 70%',
             end: 'top 40%',
             scrub: 2,
             markers: false,

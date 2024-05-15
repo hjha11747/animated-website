@@ -16,12 +16,17 @@ const Navbar = () => {
 
   useGSAP(() => {
     let tl = gsap.timeline();
-    tl.from("nav", {
+    tl.from("nav .title", {
       y: -30,
-      duration: 0.1,
-      delay: 1,
+      duration: 0.2,
+      delay: 0.2,
       opacity: 0,
-      stagger: 0.2
+    })
+    tl.from("nav .active ", {
+      y: -30,
+      duration: 0.5,
+      opacity: 0,
+      stagger: 0.1
     })
       .from(".center-part1 h1", {
         x: -300,
@@ -108,15 +113,15 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='bg-gray-200 flex justify-between items-center py-2 px-12 sticky  z-10 top-0 max-lg:px-8 max-sm:py-5 '>
+      <nav className='bg-gray-200 flex justify-between items-center py-2 px-12 sticky  z-10 top-0 max-lg:px-8 max-sm:py-5 title '>
         <NavLink onClick={scrollToTop} className='text-[40px] font-bold max-lg:text-[30px] max-sm:text-[25px] max-small:text-[22px] max-xs:text-[18px] ' id='top' activeClassName='active'><i class="ri-menu-search-line"></i>ElevateEdge</NavLink>
-        <div className='flex justify-center items-center gap-11 font-semibold max-xl:gap-6 max-medium:gap-4 max-tab:hidden'>
+        <div className='flex justify-center items-center gap-11 font-semibold max-xl:gap-6 max-medium:gap-4 max-tab:hidden active'>
           <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToTop}>Home</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToAboutUs}>About Us</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToServices}>Services</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToBanner}>Blog</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToProcess}>Process</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToTestimonial}>Testimonial</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600" onClick={scrollToTestimonial}>Managements</NavLink>
           <Link onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-lime-400 font-semibold'>Request Service</Link>
         </div>
 
@@ -131,7 +136,7 @@ const Navbar = () => {
           <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToServices}>Services</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToBanner}>Blog</NavLink>
           <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToProcess}>Process</NavLink>
-          <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTestimonial}>Testimonial</NavLink>
+          <NavLink activeClassName="active" className="hover:text-green-600 hover:bg-gray-300 p-2 rounded-lg" onClick={scrollToTestimonial}>Managements</NavLink>
           <NavLink onClick={scrollToContactUs} className='py-[12px] px-3 rounded-md bg-lime-400 font-semibold w-[32%] max-small:w-[36%] max-xs:w-[58%] text-center'>Request Service</NavLink>
         </div>
       )}

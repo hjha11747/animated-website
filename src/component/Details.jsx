@@ -76,7 +76,7 @@ const Details = () => {
 
         ScrollTrigger.create({
             trigger: '.process',
-            start: 'top 100%',
+            start: 'top 90%',
             end: 'top 60%',
             scrub: 2,
             markers: false,

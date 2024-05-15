@@ -41,7 +41,7 @@ const Banner = () => {
 
     ScrollTrigger.create({
       trigger: '.banner-details',
-      start: 'top 100%%',
+      start: 'top 80%%',
       end: 'top 40%',
       scrub: 2,
       markers: false,
