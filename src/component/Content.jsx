@@ -149,7 +149,7 @@ const Content = () => {
                     </div>
                     <div className="  flex-shrink-0 h-[330px] w-[47%] rounded-lg shadow-lg border border-solid p-14 flex  elem line2 right mb-14  max-xl:px-5 max-medium:w-[90%] max-medium:mx-auto  max-sm:h-[230px]  max-xs:h-[200px] max-xs:py-6  max-sm:py-8  max-small:w-[100%] max-small:px-2 max-sm:mb-9 max-medium:bg-black max-sm:hover:transform max-sm:hover:scale-105 max-sm:duration-500">
                         <div className="elem-part1 h-full w-[50%] flex justify-between flex-col">
-                            <h2 className=' bg-lime-300 max-medium:bg-white w-[89%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Youtube
+                            <h2 className=' bg-lime-300 max-medium:bg-white w-[95%] text-[23px] font-semibold px-2 rounded-md max-lg:text-[20px]  max-sm:text-[17px]  max-small:text-[15px] max-xs:text-[13px]'>Youtube
                                 Management services</h2>
                             <Link to="https://www.hubspot.com/youtube-marketing" target="_blank" rel="noopener noreferrer" className='text-[20px]  max-sm:text-[15px] max-xs:text-[13px] max-medium:text-white '>Learn More<i className="ri-arrow-right-up-line text-[25px] max-xs:text-[17px]  pl-1"></i></Link>
                         </div>
