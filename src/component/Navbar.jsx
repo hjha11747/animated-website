@@ -148,7 +148,7 @@ const Navbar = () => {
           <button className=' bg-black text-white font-semibold rounded-md px-5 py-2 border- text-[20px]  max-xl:text-[17px]' onClick={scrollToAboutUs}> Dive in now</button>
         </div>
         <div className='center-part2 w-[55%]   max-xl:w-[50%]   max-small:w-[100%]  max-small:pt-5 '>
-          <img className=' max-xl:w-[520px] max-xl:m-auto   max-sm:h-[300px]   ' src="https://www.unicuscreatives.in/media/graphics/homepage-megaphone.svg" alt="" />
+          <img className=' max-xl:w-[520px] max-xl:m-auto   max-sm:h-[300px]   ' src="https://social-hub-ui.vercel.app/microphone.svg" alt="" />
         </div>
       </div>
       <div className=' section1bottom flex justify-between items-center px-[160px] max-lg:px-[100px]  max-md:px-[60px] max-sm:px-8  max-small:px-2   '>
